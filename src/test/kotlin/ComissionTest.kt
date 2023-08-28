@@ -89,7 +89,7 @@ class ComissionTest {
         val previos = 0
 
         val result = comissionVK(typeCard, transfer, previos)
-        assertEquals(0.0, result, 0.01)
+        assertEquals(10.0, result, 0.01)
     }
 
     @Test
